@@ -1,4 +1,5 @@
 # Stock Price Prediction with LSTM
+![Alt Text](LSTM Model.png)
 
 ## Description
 This project utilizes LSTM (Long Short-Term Memory) neural networks to forecast the upcoming closing prices of a stock by analyzing past data. The Keras library is used for constructing and training the LSTM model. The project acquires historical stock data from Yahoo Finance with the assistance of the yfinance and pandas_datareader libraries. The data is preprocessed and normalized using the MinMaxScaler function from the scikit-learn library. The Sequential model from Keras is employed to construct and train the LSTM model, with different architectures and configurations being investigated. The model creates a new Long Short-Term Memory (LSTM) model with five layers. The model architecture consists of three LSTM layers with decreasing sizes (128 units, 64 units, and 32 units), followed by two dense layers (with 16 units and 1 unit respectively). After each LSTM layer and the two dense layers, a dropout of 0.2 is applied, which helps prevent overfitting.
