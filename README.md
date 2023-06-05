@@ -40,6 +40,7 @@ from keras.layers import Dense, LSTM
 from keras.layers import Dropout
 from keras import regularizers
 
+
 ## Usage
 The project follows the following steps:
 
