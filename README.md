@@ -41,10 +41,10 @@ from keras import regularizers
 
 
 
-## Dependencies
+## Execution steps
 The project follows the following steps:
 
-Data Retrieval: Get historical stock data from Yahoo Finance for Shell stock.
+- Data Retrieval: Get historical stock data from Yahoo Finance for Shell stock.
 Data Preprocessing: Clean the data and extract the desired features.
 Data Scaling: Normalize the data using the MinMaxScaler function.
 Data Preparation: Split the data into training and testing sets and create sequences of input and output data.
