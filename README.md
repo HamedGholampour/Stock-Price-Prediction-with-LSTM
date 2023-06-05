@@ -35,13 +35,13 @@ from keras.models import Sequential
 from keras.layers import Dense, LSTM
 import matplotlib.pyplot as plt
 import mplfinance as mplf
-from keras.models import Sequential
-from keras.layers import Dense, LSTM
 from keras.layers import Dropout
 from keras import regularizers
 
 
-## Usage
+
+
+## Dependencies
 The project follows the following steps:
 
 Data Retrieval: Get historical stock data from Yahoo Finance for Shell stock.
