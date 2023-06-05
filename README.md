@@ -45,11 +45,12 @@ from keras import regularizers
 The project follows the following steps:
 
 - Data Retrieval: Get historical stock data from Yahoo Finance for Shell stock.
-Data Preprocessing: Clean the data and extract the desired features.
-Data Scaling: Normalize the data using the MinMaxScaler function.
-Data Preparation: Split the data into training and testing sets and create sequences of input and output data.
-LSTM Model Building: Create and train the LSTM model using three LSTM layers with decreasing sizes and followed by two dense layers.
-Prediction: Make predictions on the test data and evaluate the model's performance.
-Visualization: Plot the actual and predicted prices to visualize the results.
-Please refer to the code implementation for detailed instructions on each step.
+- Data Preprocessing: Clean the data and extract the desired features.
+- Data Scaling: Normalize the data using the MinMaxScaler function.
+- Data Preparation: Split the data into training and testing sets and create sequences of input and output data.
+- LSTM Model Building: Create and train the LSTM model using three LSTM layers with decreasing sizes and followed by two dense layers.
+- Prediction: Make predictions on the test data and evaluate the model's performance.
+- Visualization: Plot the actual and predicted prices to visualize the results.
+- Please refer to the code implementation for detailed instructions on each step.
+
 
