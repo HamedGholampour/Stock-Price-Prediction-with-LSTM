@@ -1,4 +1,3 @@
-# Stock_Predict_With_LSTM
 # Stock Price Prediction with LSTM
 
 ## Description
@@ -40,3 +39,16 @@ from keras.models import Sequential
 from keras.layers import Dense, LSTM
 from keras.layers import Dropout
 from keras import regularizers
+
+## Usage
+The project follows the following steps:
+
+Data Retrieval: Get historical stock data from Yahoo Finance for Shell stock.
+Data Preprocessing: Clean the data and extract the desired features.
+Data Scaling: Normalize the data using the MinMaxScaler function.
+Data Preparation: Split the data into training and testing sets and create sequences of input and output data.
+LSTM Model Building: Create and train the LSTM model using three LSTM layers with decreasing sizes and followed by two dense layers.
+Prediction: Make predictions on the test data and evaluate the model's performance.
+Visualization: Plot the actual and predicted prices to visualize the results.
+Please refer to the code implementation for detailed instructions on each step.
+
